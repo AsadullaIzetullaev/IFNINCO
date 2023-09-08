@@ -1,0 +1,1935 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/fonts/">
+  <link rel="stylesheet" href="./css/aos.css">
+
+  <link href="./js/ui-components-master/itc-slider/itc-slider.css" rel="stylesheet">
+ 
+  <script src="./js/ui-components-master/itc-slider/itc-slider.js" defer></script>
+  <title>IFNINCO</title>
+  
+
+
+
+
+
+
+
+  <style>
+    *,
+    *::before,
+    *::after {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    .container__js {
+      margin: 0;
+
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+        'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol';
+    }
+
+
+
+    .container__js {
+      max-width: 500px;
+      max-height: 650px;
+      margin-left: 700px;
+      margin-bottom: 200px;
+
+
+    }
+
+    .itc-slider__item img {
+      width: 466px;
+      height: 420px;
+    }
+
+    .itc-slider__items {
+      counter-reset: slide;
+    }
+
+    .itc-slider__item {
+      flex: 0 0 0 100%;
+      max-width: 100%;
+      counter-increment: slide;
+      height: 650px;
+      position: relative;
+    }
+
+    .itc-slider__item::before {
+      content: counter(slide) "/12";
+      position: absolute;
+      top: 10px;
+      right: 45px;
+      font-family: 'Outfit';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 18px;
+      text-align: center;
+      color: #FFFFFF;
+      display: block;
+
+    }
+
+    .itc-slider__btn {
+      background: #000;
+      padding: 30px;
+      border-radius: 50%;
+    }
+
+
+
+    /*.itc-slider__item:nth-child(1) {
+      background-color: #f44336;
+    }
+
+    .itc-slider__item:nth-child(2) {
+      background-color: #9c27b0;
+    }
+
+    .itc-slider__item:nth-child(3) {
+      background-color: #3f51b5;
+    }
+
+    .itc-slider__item:nth-child(4) {
+      background-color: #03a9f4;
+    }
+
+    .itc-slider__item:nth-child(5) {
+      background-color: #4caf50;
+    }
+
+    
+    .itc-slider__item:nth-child(6) {
+      background-color: #f44336;
+    }
+
+    .itc-slider__item:nth-child(7) {
+      background-color: #9c27b0;
+    }
+
+    .itc-slider__item:nth-child(8) {
+      background-color: #3f51b5;
+    }
+
+    .itc-slider__item:nth-child(9) {
+      background-color: #03a9f4;
+    }
+
+    .itc-slider__item:nth-child(10) {
+      background-color: #4caf50;
+    }*/
+
+
+
+    @media (max-width: 1000px) {
+
+
+      .container__js {
+        margin-top: 100px;
+      }
+
+
+      .itc-slider__item img {
+        width: 266px;
+        height: 220px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header id="header" class="header">
+    <div class="wrapper">
+      <div class="header__nav">
+
+        <div class="nav__logo">
+          <a href="#header"><img src="./image/logo.png" alt="logo"></a>
+        </div>
+        <div class="nav__list">
+          <ul>
+            <li><a href="#great__block--thing">Collections</a></li>
+            <li><a href="#drops">Drops</a></li>
+            <li><a href="#stats">Stats</a></li>
+            <li><a href="#explore">Explore</a></li>
+            <li><a href="#diamond">Activity</a></li>
+
+          </ul>
+        </div>
+
+        <div class="flex__box">
+
+          <div class="button__input">
+            <input type="text" placeholder="Search...">
+          </div>
+
+          <div class="button__box">
+            <a href="#!"><button class="lupa"><img src="./image/search.png" alt=""></button></a>
+
+          </div>
+
+          <div class="seach__button"><a href="#!"><button>Get in Touch</button></a></div>
+
+        </div>
+
+
+        <div class="Burger">
+          <span></span>
+        </div>
+
+
+      </div>
+    </div>
+
+
+  </header>
+  <main>
+    <section id="discover" class="discover">
+      <div class="container">
+        <div class="discover__all">
+
+          <div class="dis__r">
+
+            <div class="discover__text">
+
+
+              <h2>
+                Discover, collect, and sell extraordinary <span> NFTs</span>
+              </h2>
+              <p>
+                Our marketplace is the world’s first and largest NFT market for independent creators worldwide
+              </p>
+
+            </div>
+            <div class="buttons__box">
+              <div class="two__but">
+                <div class="fir_b"><a href="#explore"><button>Explore</button></a></div>
+                <div class="sec_b"><a href="#!"><button>Create</button></a></div>
+              </div>
+              <div class="video_b">
+                <a target="_blank" href="./video/video1.mp4"><img src="./image/play.png" alt=""></a>
+                <p>Learn more about Nftico</p>
+              </div>
+            </div>
+            <div class="dic__fone"><img src="./image/circle10.png" alt=""></div>
+
+
+
+
+            <div class="img__r"><img src="./image/romb.png" alt=""></div>
+
+            <div class="img__rr"><img src="./image/romb__red.png" alt=""></div>
+            <div class="img__r2"><img src="./image/sar1.png" alt=""></div>
+            <div class="img__sar2"><img src="./image/sar2.png" alt=""></div>
+
+          </div>
+
+
+          <div class="container__js">
+
+            <div class="itc-slider" data-slider="itc-slider" data-loop="true" data-autoplay="true">
+              <div class="itc-slider__wrapper">
+                <div class="itc-slider__items">
+                  <div class="itc-slider__item">
+                    <!-- Контент 1 слайда -->
+                    <img src="./image/image__sliders/img1.png" alt="">
+                  </div>
+                  <div class="itc-slider__item">
+                    <!-- Контент 3 слайда -->
+                    <img src="./image/image__sliders/img2.png" alt="">
+                  </div>
+                  <div class="itc-slider__item">
+                    <!-- Контент 4 слайда -->
+                    <img src="./image/image__sliders/img3.png" alt="">
+                  </div>
+                  <div class="itc-slider__item">
+                    <!-- Контент 5 слайда -->
+                    <img src="./image/image__sliders/img4.png" alt="">
+                  </div>
+                  <div class="itc-slider__item">
+                    <!-- Контент 1 слайда -->
+                    <img src="./image/image__sliders/img5.png" alt="">
+                  </div>
+                  <div class="itc-slider__item">
+                    <!-- Контент 3 слайда -->
+                    <img src="./image/image__sliders/img6.png" alt="">
+                  </div>
+                  <div class="itc-slider__item">
+                    <!-- Контент 4 слайда -->
+                    <img src="./image/image__sliders/img7.png" alt="">
+                  </div>
+                  <div class="itc-slider__item">
+                    <!-- Контент 5 слайда -->
+                    <img src="./image/image__sliders/img8.png" alt="">
+                  </div>
+                  <div class="itc-slider__item">
+                    <!-- Контент 1 слайда -->
+                    <img src="./image/image__sliders/img9.png" alt="">
+                  </div>
+                  <div class="itc-slider__item">
+                    <!-- Контент 3 слайда -->
+                    <img src="./image/image__sliders/img10.png" alt="">
+                  </div>
+                  <div class="itc-slider__item">
+                    <!-- Контент 4 слайда -->
+                    <img src="./image/image__sliders/img11.png" alt="">
+                  </div>
+                  <div class="itc-slider__item">
+                    <!-- Контент 5 слайда -->
+                    <img src="./image/image__sliders/img12.png" alt="">
+                  </div>
+
+                </div>
+              </div>
+              <!--<div class="slider__next__prev"></div>
+              <button class="itc-slider__btn itc-slider__btn_prev"><img src="./image/image__sliders/Arrow__prev.png"
+                  alt=""></button>-->
+
+              <button class="itc-slider__btn itc-slider__btn_next"><img src="./image/image__sliders/Arrow__next.png"
+                  alt=""></button>
+
+              <div id="stats" class="stats"></div>
+
+
+
+            </div>
+          </div>
+        </div>
+
+        <div id="namber__row" data-aos="fade-right" class="namber__row">
+          <div class="namber__box--wraped">
+            <div class="ptext_box">
+              <p>
+                We will take all the worry and guesswork out of your blockchain and cryptocurrency concerns.
+              </p>
+            </div>
+
+            <div class="namber__box">
+              <h3>
+                30.000+
+              </h3>
+              <p>
+                World Arts
+              </p>
+            </div>
+            <div class="namber__box">
+              <h3>
+                18.000+
+              </h3>
+              <p>
+                Digital Artists
+              </p>
+            </div>
+            <div class="namber__box">
+              <h3>
+                22.000+
+              </h3>
+              <p>
+                Live Auctions
+              </p>
+            </div>
+            <div class="namber__box">
+              <h3>
+                50.000+
+              </h3>
+              <p>
+                Unique Products
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section id="drops" class="drops">
+
+      <div data-aos="zoom-in" class="drpos__texts">
+        <h1>
+          NFTs
+        </h1>
+        <p>
+          Selected notable drops
+
+        </p>
+      </div>
+
+      <div class="drops__block">
+        <div class="drops__box">
+          <div class="dcard__img">
+            <img src="./image/bg9.png" alt="">
+          </div>
+
+          <div class="card__pimg">
+            <div class="card__p1">
+              <p>
+                Science Jobs
+              </p>
+            </div>
+            <div class="card__p2">
+              <img src="./image/heart.png" alt="">
+              <p>
+                24
+              </p>
+            </div>
+          </div>
+          <div class="card__skr">
+            <div class="card__foto">
+              <img src="./image/Shape.png" alt="">
+
+              <p>
+                From 17.59 Flow
+              </p>
+            </div>
+
+            <div class="foto__img"><img src="./image/foto.png" alt="">
+            </div>
+          </div>
+          <div class="but__dv">
+            <div class="card__button">
+              <a href="#!"><button>Livenow</button></a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="drops__box">
+          <div class="dcard__img">
+            <img src="./image/bg1.png" alt="">
+          </div>
+
+          <div class="card__pimg">
+            <div class="card__p1">
+              <p>
+                Science Jobs
+              </p>
+            </div>
+            <div class="card__p2">
+              <img src="./image/heart.png" alt="">
+              <p>
+                24
+              </p>
+            </div>
+          </div>
+          <div class="card__skr">
+            <div class="card__foto">
+              <img src="./image/Shape.png" alt="">
+
+              <p>
+                From 17.59 Flow
+              </p>
+            </div>
+
+            <div class="foto__img"><img src="./image/foto.png" alt="">
+            </div>
+          </div>
+          <div class="but__dv">
+            <div class="card__button">
+              <a href="#!"><button>Livenow</button></a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="drops__box">
+          <div class="dcard__img">
+            <img src="./image/bg3.png" alt="">
+          </div>
+
+          <div class="card__pimg">
+            <div class="card__p1">
+              <p>
+                Science Jobs
+              </p>
+            </div>
+            <div class="card__p2">
+              <img src="./image/heart.png" alt="">
+              <p>
+                24
+              </p>
+            </div>
+          </div>
+          <div class="card__skr">
+            <div class="card__foto">
+              <img src="./image/Shape.png" alt="">
+
+              <p>
+                From 17.59 Flow
+              </p>
+            </div>
+
+            <div class="foto__img"><img src="./image/foto.png" alt="">
+            </div>
+          </div>
+          <div class="but__dv">
+            <div class="card__button">
+              <a href="#!"><button>Livenow</button></a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="drops__box">
+          <div class="dcard__img">
+            <img src="./image/bg4.png" alt="">
+          </div>
+
+          <div class="card__pimg">
+            <div class="card__p1">
+              <p>
+                Science Jobs
+              </p>
+            </div>
+            <div class="card__p2">
+              <img src="./image/heart.png" alt="">
+              <p>
+                24
+              </p>
+            </div>
+          </div>
+          <div class="card__skr">
+            <div class="card__foto">
+              <img src="./image/Shape.png" alt="">
+
+              <p>
+                From 17.59 Flow
+              </p>
+            </div>
+
+            <div class="foto__img"><img src="./image/foto.png" alt="">
+            </div>
+          </div>
+          <div class="but__dv">
+            <div class="card__button">
+              <a href="#!"><button>Livenow</button></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <section id="stats" class="thinging">
+      <div class="thing__big-block">
+        <div class="thing__text">
+          <div class="thing__textbox">
+            <h1>
+              NFTs
+            </h1>
+            <p>
+              Top collections
+            </p>
+          </div>
+          <div class="thing__buttons">
+            <a href="#great__block--thing"><button>
+                1 day
+              </button></a>
+          </div>
+          <div class="thing__buttons7">
+            <a href="#great__block--thing2"><button>
+                7 dey
+              </button></a>
+          </div>
+          <div class="thing__buttons">
+            <a href="#!"><button>
+                30 day
+              </button></a>
+          </div>
+
+          <div class="thing__cripto">
+            <a href="#!"><button>
+                Ethereum
+              </button></a>
+          </div>
+
+        </div>
+
+        <div id="great__block--thing" class="great__block--thing">
+          <div class="great__thing">
+            <div class="thing__box1">
+              <div class="thing__card">
+                <div class="thing__row">
+                  <div class="thing__coin">
+                    <img src="./image/circle1.png" alt="">
+                  </div>
+                  <div class="thing__rowcoin">
+
+                    <div class="thing__h">
+
+                      <h5>
+                        Bored Ape Yacht Club
+                      </h5>
+                    </div>
+                    <div class="thing__imgp">
+
+                      <img src="./image/Shape.png" alt="">
+
+                      <p>
+                        10,450.00
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="thing__green">
+                  <h6>
+                    2.9k ETH
+                  </h6>
+                  <p>
+                    +10.00%
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="thing__box2">
+              <div class="thing__card">
+                <div class="thing__row">
+                  <div class="thing__coin">
+                    <img src="./image/circle2.png" alt="">
+                  </div>
+                  <div class="thing__rowcoin">
+
+                    <div class="thing__h">
+
+                      <h5>
+                        Bored Ape Yacht Club
+                      </h5>
+                    </div>
+                    <div class="thing__imgp">
+
+                      <img src="./image/Shape.png" alt="">
+
+                      <p>
+                        10,450.00
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="thing__green">
+                  <h6>
+                    2.9k ETH
+                  </h6>
+                  <p>
+                    +10.00%
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="thing__box3">
+              <div class="thing__card">
+                <div class="thing__row">
+                  <div class="thing__coin">
+                    <img src="./image/circle3.png" alt="">
+                  </div>
+                  <div class="thing__rowcoin">
+
+                    <div class="thing__h">
+
+                      <h5>
+                        Bored Ape Yacht Club
+                      </h5>
+                    </div>
+                    <div class="thing__imgp">
+
+                      <img src="./image/Shape.png" alt="">
+
+                      <p>
+                        10,450.00
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="thing__green">
+                  <h6>
+                    2.9k ETH
+                  </h6>
+                  <p>
+                    +10.00%
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="great__thing">
+            <div class="thing__box1">
+              <div class="thing__card">
+                <div class="thing__row">
+                  <div class="thing__coin">
+                    <img src="./image/circle4.png" alt="">
+                  </div>
+                  <div class="thing__rowcoin">
+
+                    <div class="thing__h">
+
+                      <h5>
+                        Bored Ape Yacht Club
+                      </h5>
+                    </div>
+                    <div class="thing__imgp">
+
+                      <img src="./image/Shape.png" alt="">
+
+                      <p>
+                        10,450.00
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="thing__green">
+                  <h6>
+                    2.9k ETH
+                  </h6>
+                  <p>
+                    +10.00%
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="thing__box2">
+              <div class="thing__card">
+                <div class="thing__row">
+                  <div class="thing__coin">
+                    <img src="./image/circle5.png" alt="">
+                  </div>
+                  <div class="thing__rowcoin">
+
+                    <div class="thing__h">
+
+                      <h5>
+                        Bored Ape Yacht Club
+                      </h5>
+                    </div>
+                    <div class="thing__imgp">
+
+                      <img src="./image/Shape.png" alt="">
+
+                      <p>
+                        10,450.00
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="thing__green">
+                  <h6>
+                    2.9k ETH
+                  </h6>
+                  <p>
+                    +10.00%
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="thing__box3">
+              <div class="thing__card">
+                <div class="thing__row">
+                  <div class="thing__coin">
+                    <img src="./image/circle6.png" alt="">
+                  </div>
+                  <div class="thing__rowcoin">
+
+                    <div class="thing__h">
+
+                      <h5>
+                        Bored Ape Yacht Club
+                      </h5>
+                    </div>
+                    <div class="thing__imgp">
+
+                      <img src="./image/Shape.png" alt="">
+
+                      <p>
+                        10,450.00
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="thing__green">
+                  <h6>
+                    2.9k ETH
+                  </h6>
+                  <p>
+                    +10.00%
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          <div class="great__thing">
+            <div class="thing__box1">
+              <div class="thing__card">
+                <div class="thing__row">
+                  <div class="thing__coin">
+                    <img src="./image/circle7.png" alt="">
+                  </div>
+                  <div class="thing__rowcoin">
+
+                    <div class="thing__h">
+
+                      <h5>
+                        Bored Ape Yacht Club
+                      </h5>
+                    </div>
+                    <div class="thing__imgp">
+
+                      <img src="./image/Shape.png" alt="">
+
+                      <p>
+                        10,450.00
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="thing__green">
+                  <h6>
+                    2.9k ETH
+                  </h6>
+                  <p>
+                    +10.00%
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="thing__box2">
+              <div class="thing__card">
+                <div class="thing__row">
+                  <div class="thing__coin">
+                    <img src="./image/circle8.png" alt="">
+                  </div>
+                  <div class="thing__rowcoin">
+
+                    <div class="thing__h">
+
+                      <h5>
+                        Bored Ape Yacht Club
+                      </h5>
+                    </div>
+                    <div class="thing__imgp">
+
+                      <img src="./image/Shape.png" alt="">
+
+                      <p>
+                        10,450.00
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="thing__green">
+                  <h6>
+                    2.9k ETH
+                  </h6>
+                  <p>
+                    +10.00%
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="thing__box3">
+              <div class="thing__card">
+                <div class="thing__row">
+                  <div class="thing__coin">
+                    <img src="./image/circle9.png" alt="">
+                  </div>
+                  <div class="thing__rowcoin">
+
+                    <div class="thing__h">
+
+                      <h5>
+                        Bored Ape Yacht Club
+                      </h5>
+                    </div>
+                    <div class="thing__imgp">
+
+                      <img src="./image/Shape.png" alt="">
+
+                      <p>
+                        10,450.00
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="thing__green">
+                  <h6>
+                    2.9k ETH
+                  </h6>
+                  <p>
+                    +10.00%
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div id="great__block--thing2" class="great__block--thing2">
+          <div class="great__thing">
+            <div class="thing__box1">
+              <div class="thing__card">
+                <div class="thing__row">
+                  <div class="thing__coin">
+                    <img src="./image/circle1.png" alt="">
+                  </div>
+                  <div class="thing__rowcoin">
+
+                    <div class="thing__h">
+
+                      <h5>
+                        Bored Ape Yacht Club
+                      </h5>
+                    </div>
+                    <div class="thing__imgp">
+
+                      <img src="./image/Shape.png" alt="">
+
+                      <p>
+                        10,450.00
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="thing__green">
+                  <h6>
+                    2.9k ETH
+                  </h6>
+                  <p>
+                    +10.00%
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="thing__box2">
+              <div class="thing__card">
+                <div class="thing__row">
+                  <div class="thing__coin">
+                    <img src="./image/circle2.png" alt="">
+                  </div>
+                  <div class="thing__rowcoin">
+
+                    <div class="thing__h">
+
+                      <h5>
+                        Bored Ape Yacht Club
+                      </h5>
+                    </div>
+                    <div class="thing__imgp">
+
+                      <img src="./image/Shape.png" alt="">
+
+                      <p>
+                        10,450.00
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="thing__green">
+                  <h6>
+                    2.9k ETH
+                  </h6>
+                  <p>
+                    +10.00%
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="thing__box3">
+              <div class="thing__card">
+                <div class="thing__row">
+                  <div class="thing__coin">
+                    <img src="./image/circle3.png" alt="">
+                  </div>
+                  <div class="thing__rowcoin">
+
+                    <div class="thing__h">
+
+                      <h5>
+                        Bored Ape Yacht Club
+                      </h5>
+                    </div>
+                    <div class="thing__imgp">
+
+                      <img src="./image/Shape.png" alt="">
+
+                      <p>
+                        10,450.00
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="thing__green">
+                  <h6>
+                    2.9k ETH
+                  </h6>
+                  <p>
+                    +10.00%
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="great__thing">
+            <div class="thing__box1">
+              <div class="thing__card">
+                <div class="thing__row">
+                  <div class="thing__coin">
+                    <img src="./image/circle4.png" alt="">
+                  </div>
+                  <div class="thing__rowcoin">
+
+                    <div class="thing__h">
+
+                      <h5>
+                        Bored Ape Yacht Club
+                      </h5>
+                    </div>
+                    <div class="thing__imgp">
+
+                      <img src="./image/Shape.png" alt="">
+
+                      <p>
+                        10,450.00
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="thing__green">
+                  <h6>
+                    2.9k ETH
+                  </h6>
+                  <p>
+                    +10.00%
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="thing__box2">
+              <div class="thing__card">
+                <div class="thing__row">
+                  <div class="thing__coin">
+                    <img src="./image/circle5.png" alt="">
+                  </div>
+                  <div class="thing__rowcoin">
+
+                    <div class="thing__h">
+
+                      <h5>
+                        Bored Ape Yacht Club
+                      </h5>
+                    </div>
+                    <div class="thing__imgp">
+
+                      <img src="./image/Shape.png" alt="">
+
+                      <p>
+                        10,450.00
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="thing__green">
+                  <h6>
+                    2.9k ETH
+                  </h6>
+                  <p>
+                    +10.00%
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="thing__box3">
+              <div class="thing__card">
+                <div class="thing__row">
+                  <div class="thing__coin">
+                    <img src="./image/circle6.png" alt="">
+                  </div>
+                  <div class="thing__rowcoin">
+
+                    <div class="thing__h">
+
+                      <h5>
+                        Bored Ape Yacht Club
+                      </h5>
+                    </div>
+                    <div class="thing__imgp">
+
+                      <img src="./image/Shape.png" alt="">
+
+                      <p>
+                        10,450.00
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="thing__green">
+                  <h6>
+                    2.9k ETH
+                  </h6>
+                  <p>
+                    +10.00%
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          <div class="great__thing">
+            <div class="thing__box1">
+              <div class="thing__card">
+                <div class="thing__row">
+                  <div class="thing__coin">
+                    <img src="./image/circle7.png" alt="">
+                  </div>
+                  <div class="thing__rowcoin">
+
+                    <div class="thing__h">
+
+                      <h5>
+                        Bored Ape Yacht Club
+                      </h5>
+                    </div>
+                    <div class="thing__imgp">
+
+                      <img src="./image/Shape.png" alt="">
+
+                      <p>
+                        10,450.00
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="thing__green">
+                  <h6>
+                    2.9k ETH
+                  </h6>
+                  <p>
+                    +10.00%
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="thing__box2">
+              <div class="thing__card">
+                <div class="thing__row">
+                  <div class="thing__coin">
+                    <img src="./image/circle8.png" alt="">
+                  </div>
+                  <div class="thing__rowcoin">
+
+                    <div class="thing__h">
+
+                      <h5>
+                        Bored Ape Yacht Club
+                      </h5>
+                    </div>
+                    <div class="thing__imgp">
+
+                      <img src="./image/Shape.png" alt="">
+
+                      <p>
+                        10,450.00
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="thing__green">
+                  <h6>
+                    2.9k ETH
+                  </h6>
+                  <p>
+                    +10.00%
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="thing__box3">
+              <div class="thing__card">
+                <div class="thing__row">
+                  <div class="thing__coin">
+                    <img src="./image/circle9.png" alt="">
+                  </div>
+                  <div class="thing__rowcoin">
+
+                    <div class="thing__h">
+
+                      <h5>
+                        Bored Ape Yacht Club
+                      </h5>
+                    </div>
+                    <div class="thing__imgp">
+
+                      <img src="./image/Shape.png" alt="">
+
+                      <p>
+                        10,450.00
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="thing__green">
+                  <h6>
+                    2.9k ETH
+                  </h6>
+                  <p>
+                    +10.00%
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="thing__button8">
+          <a href="#!"><button>See All Collections </button></a>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="tranding">
+      <div class="container">
+        <div class="tranding__greate">
+
+          <div class="trading__hp">
+
+            <div class="trading__text">
+
+              <h1>
+                NFTs
+              </h1>
+            </div>
+            <div class="trading__textp">
+              <p>
+                Trending NFTs
+              </p>
+            </div>
+          </div>
+
+          <div class="trading__card--boxs">
+
+            <div class="card__box">
+              <div class="trading__card--img">
+                <a href="#!"><img src="./image/bg4.png" alt=""></a>
+              </div>
+
+              <div class="card__pcheck">
+                <p>
+                  By Ya Chin-Ho
+                </p>
+                <img src="./image/CHECK.png" alt="">
+              </div>
+              <div class="trading__card--h">
+                <h5>
+                  Venture Capitalist
+                </h5>
+              </div>
+              <div class="tradinging__sale">
+                <div class="trading__price">
+                  <p>
+                    From
+                  </p>
+                  <h6>
+                    Not for sale
+                  </h6>
+                </div>
+
+                <div class="trading__price2">
+                  <p>
+                    Highest bid
+                  </p>
+                  <h6>
+                    2.835 ETH
+                  </h6>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="card__box">
+              <div class="trading__card--img">
+                <a href="#!"><img src="./image/bg5.png" alt=""></a>
+              </div>
+
+
+              <div class="card__pcheck">
+                <p>
+                  By Ya Chin-Ho
+                </p>
+                <img src="./image/CHECK.png" alt="">
+              </div>
+              <div class="trading__card--h">
+                <h5>
+                  Venture Capitalist
+                </h5>
+              </div>
+              <div class="tradinging__sale">
+                <div class="trading__price">
+                  <p>
+                    From
+                  </p>
+                  <h6>
+                    Not for sale
+                  </h6>
+                </div>
+
+                <div class="trading__price2">
+                  <p>
+                    Highest bid
+                  </p>
+                  <h6>
+                    2.835 ETH
+                  </h6>
+                </div>
+              </div>
+
+            </div>
+
+
+            <div class="card__box">
+              <div class="trading__card--img">
+                <a href="#!"><img src="./image/bg10.png" alt=""></a>
+              </div>
+              <div class="trading__card--img2">
+                <img src="./image/downlaod.png" alt="">
+                <img src="./image/Like.png" alt="">
+              </div>
+
+              <div class="card__pcheck">
+                <p>
+                  By Ya Chin-Ho
+                </p>
+                <img src="./image/CHECK.png" alt="">
+              </div>
+              <div class="trading__card--h">
+                <h5>
+                  Venture Capitalist
+                </h5>
+              </div>
+              <div class="tradinging__sale">
+                <div class="trading__price">
+                  <p>
+                    From
+                  </p>
+                  <h6>
+                    Not for sale
+                  </h6>
+                </div>
+
+                <div class="trading__price2">
+                  <p>
+                    Highest bid
+                  </p>
+                  <h6>
+                    2.835 ETH
+                  </h6>
+                </div>
+              </div>
+
+            </div>
+
+
+            <div class="card__box">
+              <div class="trading__card--img">
+                <a href="#!"><img src="./image/bg11.png" alt=""></a>
+              </div>
+
+              <div class="card__pcheck">
+                <p>
+                  By Ya Chin-Ho
+                </p>
+                <img src="./image/CHECK.png" alt="">
+              </div>
+              <div class="trading__card--h">
+                <h5>
+                  Venture Capitalist
+                </h5>
+              </div>
+              <div class="tradinging__sale">
+                <div class="trading__price">
+                  <p>
+                    From
+                  </p>
+                  <h6>
+                    32 ETH
+                  </h6>
+                </div>
+
+                <div class="trading__price2">
+                  <p>
+                    Highest bid
+                  </p>
+                  <h6>
+                    2.835 ETH
+                  </h6>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+          <div class="trading__hr">
+            <img src="./image/Line 9.png" alt="">
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+
+    <section class="resource">
+      <div class="container">
+        <div class="resource__text--box">
+
+          <div class="resource__text">
+            <h1>
+              NFTs
+            </h1>
+          </div>
+
+          <div class="res__tex">
+
+            <p>
+              Resouces for getting started
+            </p>
+          </div>
+        </div>
+
+        <div class="res__big">
+
+        </div>
+
+        <div class="res__block">
+          <div class="res__boxr">
+            <div class="res__img">
+              <img src="./image/img11.png" alt="">
+            </div>
+            <div class="res__card">
+              <div class="res__button--row">
+                <a href="#!"><button>NFT Token</button></a>
+
+                <div class="res__com-p">
+                  <img src="./image/comment.png" alt="">
+                  <p>
+                    No Comment
+                  </p>
+
+                </div>
+              </div>
+
+              <div class="res__card--h">
+                <h5>
+                  The Seven Secrets I should have received NFTs.
+                </h5>
+              </div>
+              <div class="res__foto-box">
+                <div class="res__foto">
+                  <img src="./image/Ellipse 3.png" alt="">
+                </div>
+
+                <div class="res__foto--hp">
+                  <h6>
+                    Election Season
+                  </h6>
+                  <p>
+                    June 2, 2022
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div data-aos="zoom-out-right" class="res__right--box">
+            <div class="nft__top">
+
+              <div class="nft__card">
+
+                <div class="nft__img">
+                  <img src="./image/bg2.png" alt="">
+                </div>
+
+                <div class="nft__colum">
+
+
+                  <div class="nft__bu--com">
+                    <div class="nft__buttons">
+                      <a href="#!"><button>Game</button></a>
+                      <a href="#!"><button>NFT </button></a>
+                    </div>
+                    <div class="nft__but--comp">
+                      <img src="./image/comment.png" alt="">
+                      <p>
+                        No Comment
+                      </p>
+                    </div>
+                  </div>
+                  <div class="nft__h5">
+                    <h5>
+                      I think I minted duplicate NFTs
+                    </h5>
+                  </div>
+                  <div class="nft__foto--hp">
+
+                    <div class="nft__foto">
+                      <img src="./image/Ellipse 2.png" alt="">
+                    </div>
+                    <div class="nft__hp">
+                      <h6>
+                        Courtney Henry
+                      </h6>
+                      <p>
+                        May 27, 2022
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+
+            <div class="res__boxl">
+              <div class="nft__top">
+
+                <div class="nft__card">
+
+                  <div class="nft__img">
+                    <img src="./image/bgm.png" alt="">
+                  </div>
+
+                  <div class="nft__colum">
+
+
+                    <div class="nft__bu--com">
+                      <div class="nft__buttons">
+                        <a href="#!"><button>NFT Token</button></a>
+                        <a href="#!"><button>NFT </button></a>
+                      </div>
+                      <div class="nft__but--comp">
+                        <img src="./image/comment.png" alt="">
+                        <p>
+                          No Comment
+                        </p>
+                      </div>
+                    </div>
+                    <div class="nft__h5">
+                      <h5>
+                        The Marketplace isn’t working
+                      </h5>
+                    </div>
+                    <div class="nft__foto--hp">
+
+                      <div class="nft__foto">
+                        <img src="./image/Ellipse 4.png" alt="">
+                      </div>
+                      <div class="nft__hp">
+                        <h6>
+                          Courtney Henry
+                        </h6>
+                        <p>
+                          May 27, 2022
+                        </p>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </section>
+
+    <section id="explore" class="browse">
+      <div class="container">
+
+        <div class="browse__block">
+
+          <div class="browse__header-browse">
+            <div class="browse__text">
+              <div class="browse__h">
+                <h1>
+                  NFTs
+                </h1>
+              </div>
+              <div class="browse__p">
+                <p>
+                  Browse popular NFTs
+                </p>
+              </div>
+            </div>
+            <div class="browse__nav--left">
+
+              <div class="browse__button">
+                <a href="#!">
+                  <button>All NFT,s </button>
+                </a>
+              </div>
+
+              <div class="brs__list">
+                <ul>
+                  <li><a href="#!">Art</a></li>
+
+                  <li><a href="#!">Games</a></li>
+
+                  <li><a href="#!">Sports</a></li>
+
+                  <li><a href="#!">Tranding Cards</a></li>
+                </ul>
+
+
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="browse__card--block">
+            <div data-aos="zoom-in-up" class="browse__card--box">
+              <div class="browse__img">
+                <img src="./image/bg6.png" alt="">
+              </div>
+
+              <div class="browse__text-h">
+                <h5>
+                  Election Season
+                </h5>
+              </div>
+              <div class="brw__row">
+                <div class="brw__p">
+                  <img src="./image/ethir.png" alt="">
+                  <p>
+                    From 0.05 ETH
+                  </p>
+                </div>
+                <div class="brw__like">
+                  <img src="./image/Like.png" alt="">
+
+                </div>
+              </div>
+
+              <div class="brw__hr">
+                <hr>
+              </div>
+
+              <div class="brw__button">
+                <a href="#!"><button>Place bid</button></a>
+              </div>
+            </div>
+
+
+
+            <div data-aos="flip-down" class="browse__card--box">
+              <div class="browse__img">
+                <img src="./image/bg9.png" alt="">
+              </div>
+
+              <div class="browse__text-h">
+                <h5>
+                  Election Season
+                </h5>
+              </div>
+              <div class="brw__row">
+                <div class="brw__p">
+                  <img src="./image/ethir.png" alt="">
+                  <p>
+                    From 0.05 ETH
+                  </p>
+                </div>
+                <div class="brw__like">
+                  <img src="./image/Like.png" alt="">
+
+                </div>
+              </div>
+
+              <div class="brw__hr">
+                <hr>
+              </div>
+
+              <div class="brw__button">
+                <a href="#!"><button>Place bid</button></a>
+              </div>
+            </div>
+
+            <div data-aos="flip-down" class="browse__card--box">
+              <div class="browse__img">
+                <img src="./image/bg7.png" alt="">
+              </div>
+
+              <div class="browse__text-h">
+                <h5>
+                  Election Season
+                </h5>
+              </div>
+              <div class="brw__row">
+                <div class="brw__p">
+                  <img src="./image/ethir.png" alt="">
+                  <p>
+                    From 0.05 ETH
+                  </p>
+                </div>
+                <div class="brw__like">
+                  <img src="./image/Like.png" alt="">
+
+                </div>
+              </div>
+
+              <div class="brw__hr">
+                <hr>
+              </div>
+
+              <div class="brw__button">
+                <a href="#!"><button>Place bid</button></a>
+              </div>
+            </div>
+
+            <div data-aos="zoom-in-up" class="browse__card--box">
+              <div class="browse__img">
+                <img src="./image/bg8.png" alt="">
+              </div>
+
+              <div class="browse__text-h">
+                <h5>
+                  Election Season
+                </h5>
+              </div>
+              <div class="brw__row">
+                <div class="brw__p">
+                  <img src="./image/ethir.png" alt="">
+                  <p>
+                    From 0.05 ETH
+                  </p>
+                </div>
+                <div class="brw__like">
+                  <img src="./image/Like.png" alt="">
+
+                </div>
+              </div>
+
+              <div class="brw__hr">
+                <hr>
+              </div>
+
+              <div class="brw__button">
+                <a href="#!"><button>Place bid</button></a>
+              </div>
+            </div>
+
+
+
+          </div>
+
+        </div>
+    </section>
+    <section id="diamond" class="diamond">
+      <div class="container">
+        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" class="diamond__block">
+          <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="diamond__left">
+
+            <img src="./image/diamond.png" alt="">
+          </div>
+          <div class="diamond__right">
+            <h2>
+              Create, Sell well & Collect Your Best Very Fast NFTs.
+            </h2>
+            <p>
+              Create, Sell well & Collect Your Best Very Fast NFTs.The purpose of lorem ipsum is to create a natural
+              looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice
+              not without controversy, laying out pages with meaningless
+            </p>
+            <a href="#!"><button>Connect Wallet</button></a>
+          </div>
+        </div>
+        <div class="diamond__brand">
+          <img src="./image/Brand1.png" alt="">
+          <img src="./image/Brand2.png" alt="">
+          <img src="./image/Brand3.png" alt="">
+          <img src="./image/Brand4.png" alt="">
+          <img src="./image/Brand5.png" alt="">
+        </div>
+
+        <div class="diamond__img">
+          <img src="./image/Diam__line.png" alt="">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="footer__blocks">
+      <div class="footer__text">
+        <h6>
+          Marketplace
+        </h6>
+        <ul>
+          <li><a href="#explore">Explore</a></li>
+          <li><a href="#!">Help Center</a></li>
+          <li><a href="#!">Become a Partner</a></li>
+          <li><a href="#!">About Us</a></li>
+          <li><a href="#!">Platform Status</a></li>
+          <li><a href="#header"><span>Header</span></a></li>
+        </ul>
+      </div>
+
+
+      <div class="footer__text">
+        <h6>
+          Community
+        </h6>
+        <ul>
+          <li><a href="#!">Community</a></li>
+          <li><a href="#!">Profile</a></li>
+          <li><a href="#!">Watchlist</a></li>
+          <li><a href="#!">My Collections</a></li>
+          <li><a href="#!">Rankings</a></li>
+          <li><a href="#diamond">Activity</a></li>
+        </ul>
+      </div>
+
+
+      <div class="footer__text">
+        <h6>
+          Categories
+        </h6>
+        <ul>
+          <li><a href="#!">Arts</a></li>
+          <li><a href="#!">Collectibles</a></li>
+          <li><a href="#!">Games</a></li>
+          <li><a href="#!">Sports</a></li>
+          <li><a href="#!">Trading Cards</a></li>
+          <li><a href="#discover">Photography</a></li>
+        </ul>
+      </div>
+      <div class="footer__text">
+        <h6>
+          Marketplace
+        </h6>
+        <a href="#!">
+          <p>
+            If you’re an NFT enthusiast or are looking to download our NFT App.
+          </p>
+        </a>
+        <div class="footer__button">
+
+
+          <div class="button__input">
+            <input type="text" placeholder="Type Your Email">
+          </div>
+
+          <div class="footer__button--box">
+            <a href="#!"><button>Subscribe</button></a>
+          </div>
+        </div>
+
+        <div class="footer__social">
+          <a href="#!"> <img src="./image/facebook.png" alt=""></a>
+          <a href="#!"> <img src="./image/twiter.png" alt=""></a>
+          <a href="#!"> <img src="./image/instagram.png" alt=""></a>
+          <a href="#!"> <img src="./image/LinkedIn.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__botton">
+      <ul>
+        <li><a href="#!">Privacy Policy</a></li>
+        <li><a href="#!">License</a></li>
+        <li><a href="#!">API</a></li>
+      </ul>
+      <p>@ 2021 All rights reserved</p>
+    </div>
+  </footer>
+<script src="./js/aos.js"></script>
+ <script src="./js/script.js"></script>
+ 
+
+  <script>
+    document.querySelector('.Burger').addEventListener('click', function () {
+      this.classList.toggle('active');
+      document.querySelector('.nav__list').classList.toggle('open');
+    })
+  </script>
+</body>
+
+</html>
