@@ -132,6 +132,7 @@ body {
   color: #FFFFFF;
   text-decoration: none;
 }
+
 .nav__list ul a:hover {
   color: #E01E5A;
   transition: all ease-in-out 0.4s;
@@ -635,23 +636,12 @@ body {
   }
 }
 
-
-
-
-
-
 .discover__all {
-
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 0 auto;
-
-
 }
-
-
-
 
 .namber__box--wraped {
   display: flex;
@@ -659,18 +649,46 @@ body {
   align-items: center;
   position: relative;
   bottom: 200px;
-
-
 }
 
-.namber__box {
+.creative__results {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  text-align: center;
+}
+
+.p--block {
   display: flex;
   flex-direction: column;
   align-items: end;
   gap: 12px;
 }
 
-.namber__box h3 {
+.p--block p {
+
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.014em;
+  color: #FFFFFF;
+}
+
+.creative__image {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+  width: 750px;
+  height: auto;
+}
+
+.number,
+.number1,
+.number2,
+.number3 {
   font-family: 'Outfit';
   font-style: normal;
   font-weight: 600;
@@ -681,19 +699,39 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-
 }
 
-.namber__box p {
+
+.counter {
+  display: flex;
+}
+
+.counter h3 {
 
   font-family: 'Outfit';
   font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
   letter-spacing: -0.014em;
-  color: #FFFFFF;
+  background: linear-gradient(89.62deg, #0500FA 7.09%, #E01E5A 92.23%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 
+
+.plus {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: -0.014em;
+  background: linear-gradient(89.62deg, #0500FA 7.09%, #E01E5A 92.23%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .ptext_box {
@@ -938,7 +976,7 @@ body {
 .thinging {
   padding: 0 0 130px 0;
   background: #000;
-  
+
 }
 
 
@@ -2112,6 +2150,7 @@ body {
   text-decoration: none;
 
 }
+
 .brs__list ul a:hover {
   color: #E01E5A;
   transition: all ease-in-out 0.4s;
@@ -2409,7 +2448,7 @@ body {
 
 }
 
-.footer__text a p {
+.footer__text a {
 
   font-family: 'Outfit';
   font-style: normal;
@@ -2419,6 +2458,11 @@ body {
   text-decoration: none;
   color: #FFFFFF;
 
+}
+
+.footer__text a:hover {
+  color: #E01E5A;
+  transition: all ease-in-out 0.4s;
 }
 
 .footer__text h6 {
@@ -2514,6 +2558,7 @@ body {
   gap: 25px;
   align-items: center;
 }
+
 .footer__social a img:hover {
   transform: scale(1.3);
   transition: all ease-in-out 0.4s;
@@ -2539,10 +2584,11 @@ body {
   text-decoration: none;
 
 }
+
 .footer__botton ul a:hover {
-    color: #E01E5A;
-    transition: all ease-in-out 0.4s;
-  
+  color: #E01E5A;
+  transition: all ease-in-out 0.4s;
+
 }
 
 .footer__botton ul {
@@ -2559,6 +2605,17 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
+  line-height: 24px;
+  color: #C0C0C0;
+
+}
+
+.footer__botton p span {
+
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
   line-height: 24px;
   color: #C0C0C0;
 
@@ -2641,7 +2698,7 @@ body {
     margin-top: 60px;
     gap: 30px;
     flex-wrap: wrap;
-  
+
   }
 
   .great__block--thing2 {
